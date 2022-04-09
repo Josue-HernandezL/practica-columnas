@@ -78,3 +78,28 @@ h1 {
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
 }
+
+@media (max-width: 875px) {
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width:80%;
+    margin: 50px 0;
+}
+
+.color1 {
+    border-radius: 15px 15px 0 0;
+}
+
+.color3 {
+    border-radius: 0 0 15px 15px;
+}
+
+}
